@@ -1,0 +1,25 @@
+// JSON Document
+
+{"quote":[
+    {"id":"001", "name":"born", 
+        "category":"quote", 
+        "description":"you are born", 
+        "popularity":"normal",
+        "onsale":"no",
+        "price":"99",
+        "src":"images/quote1.png"},
+    {"id":"002", "name":"love", 
+        "category":"abstract", 
+        "description":"love", 
+        "popularity":"normal",
+        "onsale":"yes",
+        "price":"549",
+        "src":"images/quote2.jpeg"},
+    {"id":"003", "name":"family", 
+        "category":"abstract", 
+        "description":"Family", 
+        "popularity":"normal",
+        "onsale":"yes",
+        "price":"249",
+        "src":"images/quote3.jpeg"},
+]}

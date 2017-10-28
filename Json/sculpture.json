@@ -1,0 +1,25 @@
+// JSON Document
+
+{"sculpture":[
+    {"id":"001", "name":"David", 
+        "category":"abstract", 
+        "description":"David", 
+        "popularity":"normal",
+        "onsale":"no",
+        "price":"99",
+        "src":"images/sculpture1.jpeg"},
+    {"id":"002", "name":"lion", 
+        "category":"abstract", 
+        "description":"lion", 
+        "popularity":"normal",
+        "onsale":"yes",
+        "price":"549",
+        "src":"images/sculpture2.jpg"},
+    {"id":"003", "name":"child", 
+        "category":"abstract", 
+        "description":"Angle", 
+        "popularity":"normal",
+        "onsale":"yes",
+        "price":"249",
+        "src":"images/sculpture3.jpg"},
+]}

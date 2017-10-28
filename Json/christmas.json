@@ -1,0 +1,16 @@
+{"abstract":[
+    {"id":"005", "name":"Seeing Red", 
+        "category":"christmas", 
+        "description":"Oil on canvas, modern painting", 
+        "popularity":"normal",
+        "onsale":"no",
+        "price":"59",
+        "src":"images/christmas1.jpg"},
+    {"id":"006", "name":"Christmas Tree", 
+        "category":"christmas", 
+        "description":"Oil on Canvas, modern painting", 
+        "popularity":"normal",
+        "onsale":"no",
+        "price":"149",
+        "src":"images/christmas2.jpg"}
+]}

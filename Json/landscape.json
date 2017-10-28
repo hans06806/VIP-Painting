@@ -1,0 +1,23 @@
+{"landscape":[
+    {"id":"007", "name":"Lake", 
+        "category":"landscape", 
+        "description":"Oil on canvas, modern painting", 
+        "popularity":"normal",
+        "onsale":"no",
+        "price":"99",
+        "src":"images/landscape1.jpg"},
+    {"id":"008", "name":"Forest", 
+        "category":"landscape", 
+        "description":"Oil on Canvas, modern painting", 
+        "popularity":"normal",
+        "onsale":"yes",
+        "price":"549",
+        "src":"images/landscape2.jpg"},
+    {"id":"009","name":"Blue Flowers", 
+        "category":"landscape", 
+        "description":"Oil on Canvas, modern painting", 
+        "popularity":"high",
+        "onsale":"no",
+        "price":"199",
+        "src":"images/landscape5.jpg"}
+]}

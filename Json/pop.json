@@ -1,0 +1,25 @@
+// JSON Document
+
+{"pop":[
+    {"id":"001", "name":"Woman", 
+        "category":"pop", 
+        "description":"Thinking woman", 
+        "popularity":"normal",
+        "onsale":"no",
+        "price":"99",
+        "src":"images/pop1.jpeg"},
+    {"id":"002", "name":"tenant", 
+        "category":"pop", 
+        "description":"Playing tenants", 
+        "popularity":"normal",
+        "onsale":"yes",
+        "price":"549",
+        "src":"images/pop2.jpg"},
+    {"id":"003", "name":"horse", 
+        "category":"pop", 
+        "description":"color horse", 
+        "popularity":"normal",
+        "onsale":"yes",
+        "price":"249",
+        "src":"images/pop3.jpg"},
+]}

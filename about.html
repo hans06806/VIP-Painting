@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>About</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel='stylesheet'>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="share.css" rel="stylesheet">
+	<link href='home.css' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Righteous|Nova+Flat|Lalezar|Bungee+Inline|Cuprum|Exo+2|Amatic+SC|Libre+Franklin|Josefin+Sans|Yanone+Kaffeesatz|Oswald" rel="stylesheet">
+
+</head>
+<body>
+	<!-- Bootstrap frame included -->
+	<div class='container-fluid'>
+
+		<!-- Navigation Section -->	
+		<div class= 'row' id='nav'>
+			<div class= 'col-md-3' id='logo-text'>
+				<a href='index.html'> <img src='images/logo.png'>NZ Painting</a>
+			</div>
+			<div class= 'col-md-6' id='nav-button'>
+					<a href='home.html'>HOME</a>
+					<a href='product.html'>SHOP</a>
+					<a href='signup.html'>SIGNUP</a>
+					<a href='about.html'>ABOUT</a>
+				
+			</div>	
+			<div class='col-md-3' id='cart'>
+				<a href='#'>Cart(0)</a>
+			</div>	
+		</div>
+
+		<!-- Header Section  -->
+		<div class='jumbotron jumbotron-fluid' id='header'>
+			<div class='container'>
+				<h1>HIGH QUALITY ARTWORKS AT AFFORDABLE PRICE FOR EVERYBODY.</h1>
+				<h2>established in 1904</h2>
+			</div>
+		</div>
+
+		<!-- Page content goes here -->
+
+
+		<h1> About NZ Painting </h1>
+        <p>NZ Painting was established in 1904 with the dream in mind of being able to supply high quality artworks at an affordable price to the public. Currently, our artworks being displayed in over 150 local cafes, restaurants, and show homes around New Zealand. Our dream is to make these beautiful works of art to everyone not only in New Zealand but all over the world. As we work with a great number of artists, NZ Painting has the advantage of being able to provide high quality artworks in a wide variety of styles at reasonable and affordable prices. Our paintings come under the following categories: Abstract, Christmas, Landscape, Pop art, Portrait, Quote and Text, Sculpture, Split Canvas, Sticker and Still life.</p>
+        
+        <h2> Our Contact Details </h2>
+        Although we are exclusively an online based company, we are all about ensuring that we can get Art to our customers. If you are interested in a particular Art work that is not displayed on our website, please feel free to contact us and we will do our level best to procure it for you. 
+       <p>We can be contacted at:
+       <p>Address: NZ Painting Ltd
+       <br>139 Carrington Road, Mount Albert
+       <br>Auckland 1025
+        <br>Email: nzpainting@artworksnz.co.nz
+        <br>Contact No: + 64 98725487</p>
+        
+        
+        <div id="map" style="width:100%;height:300px"></div>
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(-36.880740, 174.707801), 
+    zoom: 15
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  
+  var marker = new google.maps.Marker({position: LatLng, title: 'NZ Painting'});
+  marker.setMap(map);
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        
+
+		<!-- Page content finishes here -->
+
+
+
+		<!-- footer Section -->
+		<div class='container-fluid' id='footer'>
+			<div class='row'>
+				<h3> Art is our ultimate salvation.</h3>
+				<p> Designer: Hans Wang | Developer: Hannah Liu, Krupa Bhima, Hans Wang |</p> 
+			</div>	
+		</div>	
+
+	</div>
+</body>
+</html>
